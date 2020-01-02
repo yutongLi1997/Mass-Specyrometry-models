@@ -9,6 +9,6 @@ This project is to repeat the work from paper: [Deep learning using tumor HlA pe
 * MHCflurry
 ## Datasets
 All the data is available on the [online version of the paper.](https://www.nature.com/articles/nbt.4313#Sec33)
-## Instructions
+## Pipeline
 ![The pipeline of this project is showed as follow:](https://github.com/yutongLi1997/Mass-Specyrometry-models/blob/master/pipeline.png)
 #### The Identification of Neoantigen-reactive T Cells in Cancer Patients is not included in the code.
