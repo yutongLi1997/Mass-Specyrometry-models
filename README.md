@@ -30,7 +30,7 @@ The CD8 T-cell epitopes data is available in Supplementary Dataset 3a,b.
 3. Compute per-peptide TPM as the sum of per-isoform TPM
 ## Full MS model
 The full presentation model has the following functional form:
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= Pr(peptide\_i\_presented) = \sum_{k = 1}^{m}a_{k}^{i}*Pr(peptide\_i\_presented\_by\_allele\_k)" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= Pr(peptide\_i\_presented) = \sum_{k = 1}^{m}a_{k}^{i}*Pr(peptide\quad i\_presented\_by\_allele\_k)" style="border:none;">
 The per-allele probabilities of presentation are modeled as:
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= Pr(peptide\_i\_presented\_by\_allele\_k) = sigmoid\{NN_k (peptide_i) + NN_{flanking}(flanking_i)+ NN_{RNA}(log(TPM_i))+ \alpha_{samplie(i)} + \beta_{protein(i)}\})" style="border:none;">
 Further description of the full MS model can be found in the paper.
