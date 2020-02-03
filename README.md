@@ -11,7 +11,7 @@ This project is to repeat the work from paper: [Deep learning using tumor HlA pe
 ![The pipeline of this project is showed as follow:](https://github.com/yutongLi1997/Mass-Specyrometry-models/blob/master/pipeline.png)
 ## Datasets
 All the data used for MS model is available on the [online version of the paper.](https://www.nature.com/articles/nbt.4313#Sec33)
-The data for generating binding affinity logos is available on Immune Epitope Database. ([IEDB])(https://www.iedb.org/database_export_v3.php)
+The data for generating binding affinity logos is available on Immune Epitope Database. ([IEDB](https://www.iedb.org/database_export_v3.php))
 The negative datasets are randomly generated from the MS dataset.
 The CD8 T-cell epitopes data is available in Supplementary Dataset 3a,b.
 **Training set**: This contains data from 101 samples, with a positive-negative ratio at 1: 2,000。
